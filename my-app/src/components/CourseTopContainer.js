@@ -68,7 +68,7 @@ function CourseTopContainer({ course }) {
       />
       <span className="lastUpdate">Last updates {course.lastUpdate}</span>
       <span className="courseGlobe">
-        <FontAwesomeIcon className="fontAwesome " icon={faGlobe} />{" "}
+        <FontAwesomeIcon className="fontAwesome" icon={faGlobe} />{" "}
         {course.globe}
       </span>
       <span className="courseCaptioning">

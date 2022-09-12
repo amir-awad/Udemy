@@ -2,6 +2,7 @@
   margin: 0px;
   padding: 0px;
 }
+
 /* Nav-bar section */
 .menu-icon-container,
 .header-icons {
@@ -266,17 +267,150 @@ p {
   text-align: center;
   margin: 10px;
 }
-/* 
-@media screen and (max-width: 1400px) {
-  .coursesSelection {
-    width: 65%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 0px;
-    padding: 20px;
-  }
-} */
 
+.courseSideBarContainer {
+  position: absolute;
+  width: 350px;
+  margin-left: 1300px;
+  margin-top: 100px;
+  padding: 1px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 8%), 0 4px 12px rgb(0 0 0 / 8%);
+}
+
+.courseSidebarCard {
+  border-bottom: 1px solid #d1d7dc;
+}
+
+.courseSidebarUpperDiv {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  align-items: center;
+}
+
+.courseSidebarUpperButton {
+  padding: 0px;
+  width: 100%;
+  height: 200px;
+  outline: none;
+  border: none;
+}
+
+.courseSidebarImageSpan,
+.courseSidebarImage {
+  margin: 0px;
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+}
+.coursePreview {
+  width: 350px;
+  position: absolute;
+  margin-top: 40px;
+  padding-left: 80px;
+  align-items: center;
+  background: linear-gradient(
+    180deg,
+    rgba(28, 29, 31, 0) 0%,
+    rgba(28, 29, 31, 0.9) 100%
+  );
+}
+
+.previewIcon {
+  width: 70px;
+  margin-left: 60px;
+}
+
+.previewText {
+  width: 100%;
+  font: bold 20px arial;
+  color: #fff;
+}
+
+.courseSidebarPrice {
+  margin-top: 25px;
+  margin-left: 25px;
+  font: bold 35px arial;
+}
+
+.courseSidebarCardButton {
+  width: 300px;
+  height: 50px;
+  margin-left: 25px;
+  margin-bottom: 10px;
+  font: bold 18px arial;
+  color: #1c1d1f;
+  background-color: #fff;
+}
+
+.courseSidebarCardButton:hover {
+  background-color: rgb(231, 231, 231);
+}
+
+.addToCartButton {
+  background-color: #a435f0;
+  border: none;
+}
+
+.addToCartButton:hover {
+  background-color: #8d25d3;
+}
+
+.moneyBack {
+  font-size: 14px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.courseSidebarOutlineDiv {
+  width: 300px;
+  align-items: left;
+  margin-left: 25px;
+}
+
+.courseSidebarOutline {
+  font: bold 14px arial;
+}
+
+.courseSidebarList {
+  padding: 0px;
+}
+.courseSidebarLi {
+  list-style-type: none;
+}
+
+.courseSideBarBottomContent {
+  width: 300px;
+  margin-top: 25px;
+  margin-left: 25px;
+}
+
+.courseSideBarBottomDivPar {
+  width: 100%;
+}
+
+.courseSideButtons {
+  margin-bottom: 15px;
+  margin-left: 10px;
+}
+
+.courseOptionButton {
+  outline: none;
+  border: none;
+  font: bold 14px arial;
+  margin-left: 13px;
+  border-bottom: 1px solid #000;
+}
+
+.courseOptionButton,
+.courseOptionButton:hover {
+  background-color: #fff;
+}
+
+.tryUdemyButton {
+  margin-bottom: 25px;
+}
 .courseTopSection {
   background-color: #1c1d1f;
   align-items: center;
@@ -377,10 +511,6 @@ h4 {
   margin-right: 5px;
 }
 
-li {
-  width: 400px;
-}
-
 .outcomesList {
   display: flex;
   flex-wrap: wrap;
@@ -458,12 +588,321 @@ h3 {
 .requirements {
   margin-top: 15px;
   margin-bottom: 15px;
-  font-size:17px;
+  font-size: 17px;
 }
 
-.description {
-  width:1000px;
-  font:15px;
+.courseDescription {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.courseDescription,
+.moreOrLess {
+  width: 1350px;
+}
+.targetPeople {
+  width: 800px;
+}
+.descButtonDiv {
+  width: 150px;
+  cursor: pointer;
+}
+
+.descButton {
+  outline: none;
+  border: none;
+  background-color: #fff;
+  color: #5624d0;
+  font: bold 17px arial;
+  margin: 25px 0px 25px 0px;
+}
+
+.descButton:hover {
+  background-color: #fff;
+  color: #250870;
+}
+.courseInstructors {
+  width: 1000px;
+}
+.instructorName {
+  font: bold 20px arial;
+  color: #5624d0;
+}
+.instructorName:hover {
+  color: #250870;
+}
+.instructorIntro {
+  font-size: 18px;
+  margin: 10px 0px 10px 0px;
+  color: #6a6f73;
+}
+
+.instructorImage {
+  margin-bottom: 10px;
+  margin-right: 10px;
+  border-radius: 200px;
+}
+.instructorLiClass {
+  list-style-type: none;
+  font: normal 18px arial;
+  margin: 10px 0px 15px 0px;
+}
+.instructorRatings {
+  position: absolute;
+  margin-top: 15px;
+  display: inline-block;
+}
+
+.feedbackUpperDiv {
+  width: 900px;
+  height: 200px;
+}
+
+.studentFbCourseRating {
+  width: 400px;
+  display: inline-block;
+  align-items: center;
+  position: absolute;
+  padding-top: 40px;
+}
+
+.par1StudentFb {
+  font: bold 75px arial;
+  color: rgb(172, 115, 8);
+}
+
+.par2StudentFb {
+  font: bold 18px arial;
+  color: rgb(172, 115, 8);
+}
+
+.ratingsProgressBars {
+  display: inline-block;
+  width: 750px;
+  margin-left: 135px;
+}
+
+.ratingBesidePrgBar {
+  position: absolute;
+  width: 200px;
+}
+
+.fa-star {
+  margin-left: 0px;
+  margin-right: 5px;
+}
+
+.ratingPercentage {
+  color: #5624d0;
+}
+
+.ratingBesidePrgBar {
+  display: inline-block;
+}
+
+.reviewSearchDiv {
+  width: 900px;
+  height: 50px;
+}
+.reviewFormDiv {
+  display: inline-block;
+  width: 560px;
+  height: 100%;
+  border: 1px solid #000;
+  margin-right: 150px;
+}
+
+.reviewSearchForm {
+  display: inline-block;
+  width: 600px;
+  height: 100%;
+}
+
+.reviewSearchField {
+  width: 85%;
+  padding: 0px 0px 0px 15px;
+  outline: none;
+  border: none;
+}
+.reviewSearchField,
+.reviewSearchButton,
+.allRatingButton {
+  height: 100%;
+}
+
+.reviewSearchButton {
+  width: 50px;
+  background-color: #000;
+  outline: none;
+  border: none;
+}
+.reviewSearchButton:hover {
+  background-color: #000;
+}
+.allRatingButton {
+  width: 130px;
+  background-color: #fff;
+  color: #6a6f73;
+}
+
+.ratingsButtonText {
+  margin-right: 10px;
+}
+
+.courseReview {
+  width: 850px;
+  margin: 25px 0px 25px 0px;
+  border-bottom: 1px solid #d1d7dc;
+}
+
+.reviewImage {
+  position: absolute;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  font: bold 15px arial;
+  color: #fff;
+  background-color: #000;
+  border-radius: 25px;
+  text-align: center;
+  padding-top: 13px;
+  margin-right: 10px;
+}
+
+.reviewCardContent {
+  margin-left: 50px;
+  margin-top: 5px;
+  width: 85%;
+  display: inline-block;
+}
+
+.likeOrDislike {
+  width: 40px;
+  height: 40px;
+  border-radius: 55px;
+  margin-right: 15px;
+  margin-bottom: 20px;
+  background-color: #fff;
+}
+
+.mirror {
+  display: inline-block;
+  -webkit-transform: matrix(-1, 0, 0, 1, 0, 0);
+  -moz-transform: matrix(-1, 0, 0, 1, 0, 0);
+  -o-transform: matrix(-1, 0, 0, 1, 0, 0);
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+.likeOrDislike:hover {
+  background-color: rgb(231, 231, 231);
+}
+
+.reportButton,
+.reportButton:hover {
+  outline: none;
+  border: none;
+  background-color: #fff;
+}
+.moreReviewsButton {
+  width: 850px;
+  height: 50px;
+  text-align: center;
+  padding: 10px;
+  background-color: #fff;
+  font: bold 18px arial;
+  margin: 10px 0px 30px 0px;
+}
+
+.footer {
+  left: 0;
+  bottom: 0;
+  background-color: #1c1d1f;
+  height: 500px;
+  margin-bottom: 0px;
+}
+
+.topFooterDiv {
+  height: 100px;
+  border-bottom: 1px solid #3e4143;
+}
+
+.topHeading {
+  font: bold 20px arial;
+  color: #fff;
+}
+
+.footerUdemyBusiness,
+.footerUdemyBusiness:hover {
+  color: #cec0fc;
+}
+
+.topFooterHeading {
+  display: inline-block;
+  width: 700px;
+  margin-left: 40px;
+}
+
+.topFooterLogos {
+  display: inline-block;
+  width: 610px;
+  margin: 30px 0px 15px 480px;
+}
+
+.topFooterLogos > img {
+  margin-right: 20px;
+}
+
+.bottomFooterDiv {
+  align-items: center;
+  padding: 30px;
+}
+
+.unstyled-list {
+  display: inline-block;
+  margin-left: 40px;
+}
+
+.unstyled-list > li {
+  margin-bottom: 5px;
+  list-style-type: none;
+}
+.footerListItems {
+  color: #fff;
+}
+
+.languageSelectorContainer {
+  position: absolute;
+  width: 300px;
+  position: relative;
+  text-align: right;
+  margin-left: auto;
+}
+
+.footerLanguageButton {
+  width: 180px;
+  height: 50px;
+  background-color: #1c1d1f;
+  color: #fff;
+  border-color: #fff;
+  font-size: 20px;
+}
+
+.footerLanguageButton:hover {
+  background-color: rgba(49, 49, 49, 0.686);
+}
+
+.footerLastSection {
+  margin-top: 20px;
+}
+.footerLogo {
+  position: relative;
+  width: 120px;
+  margin-left: 70px;
+}
+
+.copyrightContainer {
+  position: relative;
+  color: #fff;
+  text-align: right;
+  margin-left: auto;
 }
 
 @media screen and (max-width: 1080px) {
