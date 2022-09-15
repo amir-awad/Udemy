@@ -1,7 +1,7 @@
 import React from "react";
 import CourseCard from "./CourseCard";
-import LoadingCourseCard from "./LoadingCourseCard";
-import Error from "./Error";
+import LoadingCourseCard from "../components/LoadingCourseCard";
+import Error from "../components/Error";
 
 function CoursesContainer({ courses, loading, error }) {
   const createCoursesCards = () => {

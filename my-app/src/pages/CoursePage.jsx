@@ -1,17 +1,17 @@
 import React from "react";
 import { useParams } from "react-router-dom";
-import CourseTopContainer from "./CourseTopContainer";
+import CourseTopContainer from "../widgets/CourseTopContainer";
 import NoMatchPage from "./NoMatchPage";
-import ShortcutNavigation from "./ShortcutNavigation";
-import CourseSidebarContainer from "./CourseSidebarContainer";
-import CourseOverview from "./CourseOverview";
-import Requirements from "./Requirements";
-import CourseContent from "./CourseContent";
-import Description from "./Description";
-import ReviewsContainer from "./ReviewsContainer";
-import InstructorsCardsContainer from "./InstructorsCardsContainer";
-import StudentFeedback from "./StudentFeedback";
-import Footer from "./Footer";
+import ShortcutNavigation from "../components/ShortcutNavigation";
+import CourseSidebarContainer from "../widgets/CourseSidebarContainer";
+import CourseOverview from "../widgets/CourseOverview";
+import Requirements from "../widgets/Requirements";
+import CourseContent from "../widgets/CourseContent";
+import Description from "../widgets/Description";
+import ReviewsContainer from "../widgets/ReviewsContainer";
+import InstructorsCardsContainer from "../widgets/InstructorsCardsContainer";
+import StudentFeedback from "../components/StudentFeedback";
+import Footer from "../widgets/Footer";
 
 export default function CoursePage({ courses }) {
   const { courseId } = useParams();

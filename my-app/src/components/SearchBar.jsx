@@ -1,12 +1,9 @@
 import React, { useRef, useState, useEffect } from "react";
-import { Routes, Route, useNavigate, useSearchParams } from "react-router-dom";
-import SearchPage from "./SearchPage";
-
+import { useNavigate } from "react-router-dom";
 const SearchBar = ({ courses }) => {
   const navigate = useNavigate();
   const [inputValue, setInputValue] = useState("");
   const previousInputValue = useRef("");
-  // const [searchParams, setSearchParams] = useSearchParams();
 
   useEffect(() => {
     previousInputValue.current = inputValue;
@@ -14,8 +11,7 @@ const SearchBar = ({ courses }) => {
 
   const clickHandler = () => {
     if (inputValue.length > 0 && previousInputValue !== inputValue) {
-      // setSearchParams({ search: inputValue });
-      navigate("/search/search="+inputValue);
+      navigate("/search/search=" + inputValue);
     }
   };
 

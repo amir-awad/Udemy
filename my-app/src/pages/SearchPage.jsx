@@ -1,8 +1,8 @@
 import React from "react";
 import { useParams } from "react-router";
-import CoursesContainer from "./CoursesContainer";
-import CoursesSection from "./CoursesSection";
-import Header from "./Header";
+import CoursesContainer from "../widgets/CoursesContainer";
+import CoursesSection from "../widgets/CoursesSection";
+import Header from "../widgets/Header";
 function SearchPage({ courses }) {
   const { searchParams } = useParams();
   const searchKey = searchParams.split("=")[1];
