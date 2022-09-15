@@ -1,5 +1,5 @@
 import React from "react";
-import { CourseSidebarCard } from "./CourseCard";
+import { CourseSidebarCard } from "../CourseCard";
 
 function CourseSidebarContainer({ course }) {
   return (

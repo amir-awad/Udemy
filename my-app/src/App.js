@@ -1,11 +1,11 @@
 import "./App.css";
 import React, { useEffect, useState } from "react";
 import { Routes, Route } from "react-router-dom";
-import HomePage from "./pages/HomePage";
-import CoursePage from "./pages/CoursePage";
-import NavBar from "./widgets/NavBar";
-import NoMatchPage from "./pages/NoMatchPage";
-import SearchPage from "./pages/SearchPage";
+import HomePage from "./components/pages/HomePage";
+import CoursePage from "./components/pages/CoursePage";
+import NavBar from "./components/widgets/NavBar";
+import NoMatchPage from "./components/pages/NoMatchPage";
+import SearchPage from "./components/pages/SearchPage";
 
 function App() {
   const [courses, setCourses] = useState([]);

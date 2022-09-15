@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import ContentItem from "./ContentItem";
+import ContentItem from "../ContentItem";
 
 function CourseContent({ content, sectionsCount, lecturesCount, totalLength }) {
   const [moreContent, setMoreContent] = useState(true);

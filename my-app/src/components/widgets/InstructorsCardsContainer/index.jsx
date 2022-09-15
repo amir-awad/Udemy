@@ -1,5 +1,5 @@
 import React from "react";
-import InstructorCard from "./InstructorCard";
+import InstructorCard from "../InstructorCard";
 
 function InstructorsCardsContainer({ instructors }) {
   const createInstructorCard = () => {

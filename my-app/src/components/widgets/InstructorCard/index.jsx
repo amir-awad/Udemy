@@ -6,7 +6,7 @@ import {
   faUsers,
   faCirclePlay,
 } from "@fortawesome/free-solid-svg-icons";
-import { InstructorDescription } from "./Description";
+import { InstructorDescription } from "../Description";
 
 function InstructorCard({ instructor }) {
   return (

@@ -1,5 +1,5 @@
 import React from "react";
-import AlarmImg from "../images/alarm.png";
+import AlarmImg from "../../../images/alarm.png";
 function Header() {
   return (
     <>

@@ -1,7 +1,7 @@
 import React from "react";
-import Header from "../widgets/Header";
-import CoursesSection from "../widgets/CoursesSection";
-import CoursesContainer from "../widgets/CoursesContainer";
+import Header from "../../widgets/Header";
+import CoursesSection from "../../widgets/CoursesSection";
+import CoursesContainer from "../../widgets/CoursesContainer";
 
 export default function HomePage({ courses, loading, error }) {
   return (
