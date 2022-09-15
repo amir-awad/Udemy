@@ -20,7 +20,7 @@ const SearchBar = ({ courses }) => {
       <div className="search-bar">
         <form name="searchForm">
           <button
-            type="button"
+            type="submit"
             id="search-button"
             onClick={clickHandler}
             className="fa fa-search"
