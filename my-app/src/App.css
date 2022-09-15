@@ -508,13 +508,14 @@ p {
 .courseOutcomes {
   width: 800px;
   margin-top: 50px;
-  padding: 15px;
+  padding: 20px;
   border: 1px solid #d1d7dc;
 }
 
 h4 {
   margin-left: auto;
   margin-right: auto;
+  font: bold 25px arial;
 }
 
 .checkIcon {
@@ -522,12 +523,13 @@ h4 {
 }
 
 .outcomesList {
+  padding:0;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
 }
 .outcomesList > li {
-  margin-bottom: 19px;
+  width:350px;
   padding: 5px;
 }
 

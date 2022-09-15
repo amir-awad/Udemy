@@ -41,7 +41,7 @@ function InstructorCard({ instructor }) {
               <span>{instructor.studentsNumber + " Students"}</span>
             </li>
             <li className="instructorLiClass">
-              <FontAwesomeIcon className="faCirclePlay " icon={faCirclePlay} />
+              <FontAwesomeIcon className="faCirclePlay" icon={faCirclePlay} />
               <span>{instructor.coursesNumber + " Courses"}</span>
             </li>
           </ul>
