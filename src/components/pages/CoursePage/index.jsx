@@ -17,8 +17,8 @@ export default function CoursePage({ courses }) {
   const { courseId } = useParams();
   const course = courses[courseId - 1];
   return course ? (
-    <>
-      <CourseSidebarContainer course={course}/>
+    <div className="coursePage">
+      <CourseSidebarContainer course={course} />
       <div className="courseTopSection">
         <CourseTopContainer course={course} />
       </div>
@@ -46,7 +46,7 @@ export default function CoursePage({ courses }) {
         <ReviewsContainer reviews={course.reviews} />
       </div>
       <Footer />
-    </>
+    </div>
   ) : (
     <NoMatchPage />
   );
