@@ -4,7 +4,7 @@ const ProgressBar = ({ progress }) => {
   const parentDiv = {
     display: "inline-block",
     height: 10,
-    width: "550px",
+    width: "85%",
     backgroundColor: "#d1d7dc",
     marginBottom:15,
     marginTop:10,

@@ -17,7 +17,7 @@ function ReviewCard({ review }) {
         <span className="fa fa-star checked"></span>
         <span className="fa fa-star checked"></span>
         <span className="fa fa-star checked"></span>
-        <p>{review.content}</p>
+        <p className="reviewCardPar">{review.content}</p>
         <p>Was this review helpful?</p>
         <div className="rateOrReport">
           <button className="likeOrDislike">

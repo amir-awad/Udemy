@@ -278,6 +278,7 @@ p {
 }
 
 .coursePage {
+  width: 100%;
   height: 100%;
 }
 
@@ -442,8 +443,8 @@ p {
 }
 
 .topContainer {
-  width: 650px;
-  margin-left: 350px;
+  width: 40%;
+  margin-left: 20%;
 }
 
 .landingTopMenu,
@@ -491,17 +492,19 @@ p {
 }
 
 .courseNavigationSection {
+  width: 100%;
   height: 60px;
   border: 1px solid #d1d7dc;
-  padding-left: 350px;
+  padding-left: 20%;
 }
 
 .shortcut-navigation-buttons {
+  width: 65%;
   height: 100%;
 }
 
 .shortcutButton {
-  width: 180px;
+  width: calc(100% / 4);
   height: 100%;
   outline: none;
   border: none;
@@ -515,11 +518,12 @@ p {
   border-bottom: 2px solid black;
 }
 .coursePageContent {
-  margin-left: 350px;
+  width: 65%;
+  margin-left: 20%;
 }
 
 .moreContentButton {
-  width: 800px;
+  width: 65%;
   height: 50px;
   text-align: center;
   padding: 10px;
@@ -529,7 +533,7 @@ p {
 }
 
 .courseOutcomes {
-  width: 800px;
+  width: 65%;
   margin-top: 50px;
   padding: 20px;
   border: 1px solid #d1d7dc;
@@ -552,7 +556,7 @@ h4 {
   flex-direction: row;
 }
 .outcomesList > li {
-  width: 350px;
+  width: 45%;
   padding: 5px;
 }
 
@@ -564,7 +568,7 @@ h4 {
   width: 900px;
 }
 .courseContent {
-  width: 800px;
+  width: 65%;
   margin-top: 15px;
   margin-bottom: 15px;
   border: 1px solid #d1d7dc;
@@ -581,6 +585,7 @@ h4 {
 }
 
 h6 {
+  width: 65%;
   font: bold 30px arial;
   margin: 25px;
   margin-left: 0px;
@@ -621,21 +626,28 @@ h3 {
   font: bold 25px arial;
 }
 .requirements {
+  width: 65%;
   margin-top: 15px;
   margin-bottom: 15px;
   font-size: 17px;
 }
 
 .courseDescription {
+  width: 65%;
   margin-top: 15px;
   margin-bottom: 15px;
 }
-.courseDescription,
+.courseDescription {
+  width: 65%;
+}
+.descriptionPar {
+  width: 100%;
+}
 .moreOrLess {
-  width: 1350px;
+  width: 100%;
 }
 .targetPeople {
-  width: 800px;
+  width: 65%;
 }
 .descButtonDiv {
   width: 150px;
@@ -656,7 +668,7 @@ h3 {
   color: #250870;
 }
 .courseInstructors {
-  width: 1000px;
+  width: 65%;
 }
 .instructorName {
   font: bold 20px arial;
@@ -688,12 +700,12 @@ h3 {
 }
 
 .feedbackUpperDiv {
-  width: 900px;
+  width: 65%;
   height: 200px;
 }
 
 .studentFbCourseRating {
-  width: 400px;
+  width: 15%;
   display: inline-block;
   align-items: center;
   position: absolute;
@@ -712,13 +724,13 @@ h3 {
 
 .ratingsProgressBars {
   display: inline-block;
-  width: 750px;
+  width: 65%;
   margin-left: 135px;
 }
 
 .ratingBesidePrgBar {
   position: absolute;
-  width: 200px;
+  width: 15%;
 }
 
 .fa-star {
@@ -735,7 +747,7 @@ h3 {
 }
 
 .reviewSearchDiv {
-  width: 900px;
+  width: 70%;
   height: 50px;
 }
 .reviewFormDiv {
@@ -743,7 +755,7 @@ h3 {
   width: 560px;
   height: 100%;
   border: 1px solid #000;
-  margin-right: 150px;
+  margin-right: 5%;
 }
 
 .reviewSearchForm {
@@ -784,9 +796,13 @@ h3 {
 }
 
 .courseReview {
-  width: 850px;
+  width: 65%;
   margin: 25px 0px 25px 0px;
   border-bottom: 1px solid #d1d7dc;
+}
+
+.reviewCardPar {
+  width: 100%;
 }
 
 .reviewImage {
@@ -837,7 +853,7 @@ h3 {
   background-color: #fff;
 }
 .moreReviewsButton {
-  width: 850px;
+  width: 65%;
   height: 50px;
   text-align: center;
   padding: 10px;
@@ -938,6 +954,12 @@ h3 {
   color: #fff;
   text-align: right;
   margin-left: auto;
+}
+
+@media screen and (max-width: 1300px) {
+  .courseTopSection {
+    height: 450px;
+  }
 }
 
 @media screen and (max-width: 1080px) {

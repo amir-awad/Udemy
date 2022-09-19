@@ -41,7 +41,7 @@ function ShowLess({ description, instructor }) {
 
   const getDesc = () => {
     return desc.map((line) => {
-      return <p key={line + line}>{line}</p>;
+      return <p className="descriptionPar" key={line + line}>{line}</p>;
     });
   };
 
@@ -51,13 +51,13 @@ function ShowMore({ description, targetPeople }) {
   let id = 1;
   const getDesc = () => {
     return description.map((line) => {
-      return <p key={line + id++}>{line}</p>;
+      return <p className="descriptionPar" key={line + id++}>{line}</p>;
     });
   };
 
   const getTargetPeople = () => {
     return targetPeople.map((qualification) => {
-      return <li key={qualification}>{qualification}</li>;
+      return <li className="descriptionPar" key={qualification}>{qualification}</li>;
     });
   };
 
@@ -82,7 +82,7 @@ function Description({ description, targetPeople }) {
   };
 
   return (
-    <div className="courseDescrpition">
+    <div className="courseDescription">
       <h6>Description</h6>
       <div className="moreOrLess">
         {showMore ? (
