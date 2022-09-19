@@ -28,26 +28,24 @@ function App() {
 
   return (
     <div className="App">
-      <div>
-        <NavBar courses={courses} />
-        <Routes>
-          <Route
-            path="/"
-            element={
-              <HomePage courses={courses} loading={loading} error={error} />
-            }
-          />
-          <Route
-            path="/courses/:courseId"
-            element={<CoursePage courses={courses} />}
-          />
-          <Route
-            path="/search/:searchParams"
-            element={<SearchPage courses={courses} />}
-          />
-          <Route path="*" element={<NoMatchPage />} />
-        </Routes>
-      </div>
+      <NavBar courses={courses} />
+      <Routes>
+        <Route
+          path="/"
+          element={
+            <HomePage courses={courses} loading={loading} error={error} />
+          }
+        />
+        <Route
+          path="/courses/:courseId"
+          element={<CoursePage courses={courses} />}
+        />
+        <Route
+          path="/search/:searchParams"
+          element={<SearchPage courses={courses} />}
+        />
+        <Route path="*" element={<NoMatchPage />} />
+      </Routes>
     </div>
   );
 }

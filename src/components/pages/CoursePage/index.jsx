@@ -18,7 +18,9 @@ export default function CoursePage({ courses }) {
   const course = courses[courseId - 1];
   return course ? (
     <div className="coursePage">
-      <CourseSidebarContainer course={course} />
+      <div className="courseSidebarDiv">
+        <CourseSidebarContainer course={course} />
+      </div>
       <div className="courseTopSection">
         <CourseTopContainer course={course} />
       </div>

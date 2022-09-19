@@ -5,7 +5,7 @@ import CoursesContainer from "../../widgets/CoursesContainer";
 
 export default function HomePage({ courses, loading, error }) {
   return (
-    <>
+    <div className="homePage">
       <Header />
       <div className="coursesSection">
         <CoursesSection
@@ -15,6 +15,6 @@ export default function HomePage({ courses, loading, error }) {
         />
         <CoursesContainer courses={courses} loading={loading} error={error} />
       </div>
-    </>
+    </div>
   );
 }
