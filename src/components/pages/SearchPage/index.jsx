@@ -11,7 +11,6 @@ function SearchPage({ courses }) {
   let searchResult = "";
   for (let course of courses) {
     if (course.title.toLowerCase().includes(searchKey.toLowerCase())) {
-     
       filteredCourses.push(course);
     }
   }
